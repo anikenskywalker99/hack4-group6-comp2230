@@ -2,12 +2,12 @@
 
 ## Project Overview
 
-[Provide a brief summary of the project, including the theme and objectives.]
+Hackathon 4: A survey focusing on favourite sports and teams, using HTML, CSS, JavaScript.
 
 ## Team Members:
 
 -   Gurmandeep kaur
--   Aniken wins Shepherd
+-   Aniken Wiens Shepherd
 -   Dorothy Noble 
 -   Triumphant Adebayo
 
@@ -17,10 +17,14 @@
 
 -   She is responsible for JavaScript forms and validation.
 
-### Name 2:
+### Name 2: Aniken Wiens Shepherd
 
--   Was responsible for [specific tasks], focusing on [specific HTML elements].
+-   Was responsible for HTML code and CSS styling, focusing on text content and options.
 
-### Name 3:
+### Name 3: Dorothy Noble
 
--   Handled [specific sections], covering [specific topics or features].
+-   Did not attend today's hackathon.
+
+### Name 4: Triumphant Adebayo
+
+-   Did not attend today's hackathon.
