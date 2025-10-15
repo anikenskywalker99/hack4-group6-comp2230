@@ -4,3 +4,56 @@
     font-weight: normal; /* Adjust based on the specific font weight */
     font-style: normal;  /* Adjust based on the specific font style */
 }
+
+body {
+	font-family: "skia-cc", "Arial", sans-serif;
+	background-color: gray;
+	color: black;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+form {
+	width: 90%;
+	max-width: 32em;
+	background: white;
+	padding: 1.25em;
+	border-radius: 0.5em;
+	box-shadow: 0 0 7px orangered;
+	text-align: center;
+}
+
+label {
+    margin-top: 1em;
+    display: block;
+}
+
+input,
+select,
+textarea {
+	width: 100%;
+	padding: 0.5em;
+	border: 1px solid #ddd;
+	border-radius: 0.25em;
+    margin: 0.25em;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+	padding: 0.75em 1.25em;
+    margin: 2em;
+	background-color: blue;
+	color: white;
+	border: none;
+	border-radius: 0.25em;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: purple;
+}
