@@ -12,4 +12,49 @@
 			}
         </style>
 	</head>
+    <body>
+		<form id="sportSurvey" action="https://httpbin.org/post" method="post">
+			<h1>Survey</h1>
+                <div class="input-container">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" />
+                </div>
+                <div class="input-container">
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" />
+                </div>
+                <div class="input-container">
+                    <label for="province">Province:</label>
+                    <select name="province" id="province">
+                        <option value="">--Please choose an option--</option>
+                        <option value="ab">Alberta</option>
+                        <option value="bc">British Columbia</option>
+                        <option value="mb">Manitoba</option>
+                        <option value="nb">New Brunswick</option>
+                        <option value="nl">Newfoundland & Labrador</option>
+                        <option value="nt">Northwest Territories</option>
+                        <option value="ns">Nova Scotia</option>
+                        <option value="nu">Nunavut</option>
+                        <option value="on">Ontario</option>
+                        <option value="pe">Prince Edward Island</option>
+                        <option value="qc">Quebec</option>
+                        <option value="sk">Saskatchewan</option>
+                        <option value="yt">Yukon</option>
+                </div>
+                <div class="input-container">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" />
+                </div>
+                <div class="input-container">
+                    <label for="fav-sport">Favourite Sport:</label>
+                    <input type="text" id="fav-sport" name="fav-sport" />
+                </div>
+                <div class="input-container">
+                    <label for="fav-team">Favourite Team:</label>
+                    <input type="text" id="fav-team" name="fav-team" />
+                </div>
+			<button type="submit">Submit</button>
+		</form>
+		<script src="script.js"></script>
+	</body>
 </html>
